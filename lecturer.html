@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>講師簡介</title>
+        <link rel="stylesheet" href="style/normalize.css">
+        <style>
+            .head {
+                padding-top:50px;
+                height:85vh;
+            }
+            .head .head_background {
+                width:90%;
+                height:80vh;
+                display: block;
+                margin: auto;
+                border-radius: 5px;
+            }
+            .desc {
+                display: block;
+                margin: auto;
+                position:relative;
+                top:-670px;
+            }
+            .lecturer {
+                width:200px;
+                margin: auto;
+                padding-top: 20px;;
+            }
+            .lecturer img {
+                display: inline-block;
+                width: 200px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            .head span {
+                display: block;
+                margin-top: 2px;
+                text-align: center;
+                color: #666;
+                font-size: 22px;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 700;
+                line-height: 2em;
+            }
+            .head_button {
+                display: flex;
+                position:relative;
+                top:-400px;
+            }
+            .bottun_sub {
+                margin: auto;
+            }
+            .bottun_sub span {
+                display: inline-block;
+                text-align: center;
+                background-color: #4fa7ef;
+                margin-top: 10px;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                cursor: pointer;
+            }
+            .bottun_sub a{
+                color:white;
+                text-decoration: none;
+            }
+            .container{
+                display:flex;
+            }
+            .lecturer_info {
+                width:50%;
+            }
+            .class_info{
+                width:50%;
+            }
+            .info_border {
+                border:1px solid #ddd;
+                width:75%;
+                margin: auto;
+            }
+            .info_title {
+                font-size: 20px;
+                font-family:Arial, Helvetica, sans-serif;
+                padding:10px;
+                background-color: #eee;
+                color:#555;
+                font-weight: 600;
+            }
+            .info_container {
+                font-size: 16px;
+                font-family:Arial, Helvetica, sans-serif;
+                
+                color:#888;
+                padding-left: 10px;
+            }
+            .weight {
+                font-weight: 800;
+                color: #555;
+            }
+            .info_container .info_desc {
+                line-height: 50px;
+            }
+            .info_container .info_class {
+                line-height: 30px;
+            }
+            .footer {
+            width:100%;
+            padding:10px;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <img class="head_background" src="images/lecturer_back.jpeg" alt="">
+            <div class="desc">
+                <div class="lecturer"><img src="images/lecturer.jpg" alt=""></div>
+                <span>Richard Jiang</span>
+                
+            </div>
+            <div class="head_button">
+                <div class="class_consult bottun_sub">
+                    <span><a href="https://www.facebook.com/100089991286685">課程諮詢</a></span>
+                </div>
+                <div class="about_us bottun_sub">
+                    <span><a href="index.html">關於我們</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="lecturer_info">
+                <div class="info_border">
+                    <div class="info_title">相關經歷</div>
+                    <div class="info_container">
+                        <span class="weight info_desc">(一) 職場經驗</span><br>
+                        <span class="info_desc">公務部門 : 網管人員</span><br>
+                        <span class="info_desc">知名半導體產業 : 數據分析工程師</span><br>
+                        <span class="info_desc">聯成電腦 : 資料科學與人工智慧講師</span><br>
+                        <span class="weight info_desc">(二) 教學經驗</span><br>
+                        <span class="info_desc">從2019年開始於聯成電腦教授資料科學與人工智慧相關課程</span><br>
+                        <span class="info_desc">截至2023年1月1日止總授課時數累計達1200個小時</span><br>
+                        <span class="info_desc">主要開設課程</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 資料庫設計與查詢</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 前端網頁設計</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Python基礎程式設計</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 資料分析應用</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. 爬蟲程式與資料視覺化開發</span><br>
+                        <span class="info_class">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. 影像識別與機器學習</span><br>
+                        <span class="weight info_desc">(三) 專業技能</span><br>
+                        <span class="info_desc">數據挖掘、影像識別、系統開發</span><br>
+                        <span class="weight info_desc">(四) 其他經驗</span><br>
+                        <span class="info_desc">台灣人工智慧學校台北總校第二期畢業生</span><br>
+                        <span class="info_desc">2019年經濟部工業局ＡＩＧＯ敬賽佳作</span><br>
+                    </div>
+                </div>
+            </div>
+            <div class="class_info">
+                <div class="info_border">
+                    <div class="info_title">目前開設課程</div>
+                    <div class="info_container">
+                        <span class="info_desc">Python基礎程式設計</span><br>
+                        <span class="info_desc">資料結構與演算法</span><br>
+                        <span class="info_desc">資料視覺化</span><br>
+                        <span class="info_desc">網路爬蟲技術解析</span><br>
+                        <span class="info_desc">機器學習</span><br>
+                        <span class="info_desc">深度學習</span><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+    </body>
+</html>
