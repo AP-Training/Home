@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>演算系統訓練班</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head {
+            display: flex;
+            padding: 50px 0;
+            background-color: rgb(245, 241, 241);
+        }
+        a {
+            color: #2b85cf;
+            text-decoration: none;
+        }
+        .img_border {
+            width:30%;
+        }
+        .head .class_img {
+            width:70%;
+            margin: auto;
+        }
+        .head .class_img img{
+            width:100%;
+            margin: auto;
+        }
+        .head .class_desc {
+            width: 70%;
+        }
+        .bottun_container {
+            height: 12vh;
+        }
+        .butter_wrap {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+        .bottun_sub {
+            margin: auto;
+        }
+        .bottun_sub span {
+            display: inline-block;
+            text-align: center;
+            background-color: #4fa7ef;
+            margin-top: 10px;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .bottun_sub a{
+            color:white;
+            text-decoration: none;
+        }
+        .class_name {
+            display: block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            padding:5px;
+            color:rgb(70, 70, 70);
+        }
+        .class_desc {
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(70, 70, 70);
+            padding: 0 50px;
+            line-height: 35px;
+        }
+        .class_desc .class_feature {
+            padding-left: 30px;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        .info_title {
+            font-size: 22px;
+            background-color: #4fa7ef;
+            color:white;
+            border-radius: 5px 5px 0 0;
+            padding:8px;
+        }
+        .info_desc {
+            line-height: 30px;
+            border:1px solid #ddd;
+            padding:15px;
+            display: flex;
+        }
+        .info_block {
+            width: 50%;
+            margin: auto;
+        }
+        .footer {
+            width:100%;
+            padding:10px 0;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        @media(max-width: 1030px) {
+                
+        }
+        @media(max-width: 920px) {
+            
+            
+        }
+        @media(max-width: 768px) {
+            
+        }
+
+        @media(max-width: 540px) {
+            .head {
+                display:block;
+            }
+            .img_border {
+                width: 80%;
+                margin: auto;
+            }
+            .head .class_desc {
+                font-size: 14px;
+            }
+            .info {
+                width: 80%;
+                margin: auto;
+            }
+            .info_desc {
+                display: block;
+                font-size: 14px;
+            }
+            .info_block {
+                width: 90%;
+                margin: auto;
+            }
+            .block {
+                display: none;
+            }
+        }
+        @media(max-width: 380px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="head">
+        <div class="img_border">
+            <div class="class_img"><img src="images/資料結構.jpg" alt=""></div>
+            <span class="class_name">資料結構與演算法</span>
+            <div></div>
+        </div>
+        <div class="class_desc">課程簡介：<br>
+            <div class="class_feature">
+                在全球，只要是學習資訊相關科系的學生一定接觸過「資料結構與演算法」這門學問。<br>
+                在台灣，不論你是考資訊研究所、資訊類國家考試或者面試資訊相關職缺，都會考到「資料結構與演算法」的問題。<br>
+                為什麼這門課如此重要？因為一個好的應用程式需要具備一個優良的儲存結構以及高效率的演算法互相配合，而要完成這件事情就需要這門學問的專業知識。<br>
+                我們的這門課從理論開始講起，比照各大專院校的訓練方式帶各位一步步地進入資料結構與演算法的世界，讓有志精進程式開發的學員都可以無痛的學好這門學問。
+            </div>
+        </div>
+    </div>
+    <div class="bottun_container">
+        <div class="butter_wrap">
+            <div class="class_consult bottun_sub">
+                <span><a href="index.html">關於我們</a></span>
+            </div>
+            <div class="class_consult bottun_sub">
+                <span><a href="https://www.facebook.com/100091139078281">課程諮詢</a></span>
+            </div>
+            <div class="lector_info bottun_sub">
+                <span><a href="https://forms.gle/UyBhTsBmdzvMZYPE8">課程報名</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info_title">課程大綱</div>
+            <div class="info_desc">
+                <div class="info_block">
+                    <span>1.&nbsp;&nbsp;&nbsp;資料結構與演算法基本概念</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂資料結構</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂演算法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>時間複雜度</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>空間複雜度</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>常見的資料結構與演算法</span><br>
+                    <span>2.&nbsp;&nbsp;&nbsp;陣列(Array)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Array基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>索引存取陣列</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>新增陣列元素</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>刪除陣列元素</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Python中的Array</span><br>
+                    <span>3.&nbsp;&nbsp;&nbsp;佇列(Queue)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Queue基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Enqueue</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Dequeue</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Queue實作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Python中的Queue</span><br>
+                    <span>4.&nbsp;&nbsp;&nbsp;堆疊(Stack)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Stack基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Push</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Pop</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Function與Stack</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Stack實作</span><br>
+                    <span>5.&nbsp;&nbsp;&nbsp;二元樹(Binary Tree)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Binary Tree基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Create Binary Tree</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Delete Node</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Search Binary Tree</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Binary Tree Advance</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Binary Tree實作</span><br>
+                    <span>6.&nbsp;&nbsp;&nbsp;堆積樹(Heap Tree)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Heap Tree基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Create Heap Tree</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>最小堆積樹</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Python中的Heap Tree</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Heap Tree實作</span><br>
+                </div>
+                <div class="info_block">
+                    <span>7.&nbsp;&nbsp;&nbsp;排序(Sort)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Sort基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>泡沫排序(Bubble Sort)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>選擇排序(Selection Sort)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>插入排序(Insertion Sort)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>堆積樹排序(Heap Sort)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>合併排序(Merge Sort)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>快速排序(Quick Sort)</span><br>
+                    <span>8.&nbsp;&nbsp;&nbsp;搜尋(Search)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>線性搜尋法(Linear Search)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>順序搜尋法(Sequential Search)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>二元搜尋法(Binary Search)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Search實作</span><br>
+                    <span>9.&nbsp;&nbsp;&nbsp;圖形(Graph)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Graph基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>廣度優先</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>廣度優先實作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>深度優先</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>深度優先實作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>最短路徑演算法</span><br>
+                    <span>10.&nbsp;&nbsp;&nbsp;雜湊表(Hash Table)</span></br>                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Hash Table基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Search Hash Table</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Python中的Hash Table</span><br>
+                    <span>11.&nbsp;&nbsp;&nbsp;貪婪演算法(Greedy Algorithm)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Greedy Algorithm基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>銷售員問題(Traveling Salesman Problem)</span><br>
+                    <span>12.&nbsp;&nbsp;&nbsp;動態規劃演算法(Dynamic Algorithm)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Dynamic Algorithm基本概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>背包問題(Knapsack Problem)</span><br>
+                    <div class="block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">適合上課對象</div>
+            <div class="info_desc">
+                1. 具備基礎電腦能力 <br>
+                2. 具備Python程式設計基礎者 <br>
+                3. 預增強程式撰寫能力者
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">其他課程描述</div>
+            <div class="info_desc">
+                <span>1. 授課講師：<a href="lecturer.html">Richard Chiang</a><br>2. 課程總時數：45小時，每堂課授課時間為3小時</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+</body>
+</html>

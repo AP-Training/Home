@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>演算系統訓練班</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head {
+            display: flex;
+            padding: 50px 0;
+            background-color: rgb(245, 241, 241);
+        }
+        a {
+            color: #2b85cf;
+            text-decoration: none;
+        }
+        .img_border {
+            width:30%;
+        }
+        .head .class_img {
+            width:70%;
+            margin: auto;
+        }
+        .head .class_img img{
+            width:100%;
+            margin: auto;
+        }
+        .head .class_desc {
+            width: 70%;
+        }
+        .bottun_container {
+            height: 12vh;
+        }
+        .butter_wrap {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+        .bottun_sub {
+            margin: auto;
+        }
+        .bottun_sub span {
+            display: inline-block;
+            text-align: center;
+            background-color: #4fa7ef;
+            margin-top: 10px;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .bottun_sub a{
+            color:white;
+            text-decoration: none;
+        }
+        .class_name {
+            display: block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            padding:5px;
+            color:rgb(70, 70, 70);
+        }
+        .class_desc {
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(70, 70, 70);
+            padding: 0 50px;
+            line-height: 35px;
+        }
+        .class_desc .class_feature {
+            padding-left: 30px;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        .info_title {
+            font-size: 22px;
+            background-color: #4fa7ef;
+            color:white;
+            border-radius: 5px 5px 0 0;
+            padding:8px;
+        }
+        .info_desc {
+            line-height: 30px;
+            border:1px solid #ddd;
+            padding:15px;
+            display: flex;
+        }
+        .info_block {
+            width: 50%;
+            margin: auto;
+        }
+        .footer {
+            width:100%;
+            padding:10px 0;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        @media(max-width: 1030px) {
+                
+        }
+        @media(max-width: 920px) {
+            
+            
+        }
+        @media(max-width: 768px) {
+            
+        }
+
+        @media(max-width: 540px) {
+            .head {
+                display:block;
+            }
+            .img_border {
+                width: 80%;
+                margin: auto;
+            }
+            .head .class_desc {
+                font-size: 14px;
+            }
+            .info {
+                width: 80%;
+                margin: auto;
+            }
+            .info_desc {
+                display: block;
+                font-size: 14px;
+            }
+            .info_block {
+                width: 90%;
+                margin: auto;
+                
+            }
+            .block {
+                display: none;
+            }
+        }
+        @media(max-width: 380px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="head">
+        <div class="img_border">
+            <div class="class_img"><img src="images/MachineLearning.jpg" alt=""></div>
+            <span class="class_name">機器學習</span>
+            <div></div>
+        </div>
+        <div class="class_desc">課程簡介：<br>
+            <div class="class_feature">    
+                自動駕駛、人臉辨識、車牌辨識...等等人工智慧的應用已經在世界各地盛行多年。而這些應用的基礎就是機器學習。<br>
+                我們的這門課為人工智慧課程的入門課程，主要從資料處理、特徵工程開始逐步帶領學員進入人工智慧的專業領域。<br>
+            </div>
+        </div>
+    </div>
+    <div class="bottun_container">
+        <div class="butter_wrap">
+            <div class="class_consult bottun_sub">
+                <span><a href="index.html">關於我們</a></span>
+            </div>
+            <div class="class_consult bottun_sub">
+                <span><a href="https://www.facebook.com/100091139078281">課程諮詢</a></span>
+            </div>
+            <div class="lector_info bottun_sub">
+                <span><a href="https://forms.gle/UyBhTsBmdzvMZYPE8">課程報名</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info_title">課程大綱</div>
+            <div class="info_desc">
+                <div class="info_block">
+                    <span>1.&nbsp;&nbsp;&nbsp;機器學習簡介</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Python主要使用的領域</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>機器學習演算法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>機器學習的種類</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>機器學習建模的整體流程</span><br>
+                    <span>2.&nbsp;&nbsp;&nbsp;Numpy</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy陣列操作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Axis軸的概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy內建函數建構ndarray</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy常使用方法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>python內建函數 vs numpy函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Broadcasting</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Mask</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Fancy Index</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy實戰練習</span><br>
+                    <span>3.&nbsp;&nbsp;&nbsp;Pandas</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Series物件介紹</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataFrame物件介紹</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Index物件介紹</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>各物件資料選取</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataFrame進階操作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>階層式索引</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>資料集合併</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>聚合計算</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>抽樣</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Pandas實戰練習</span><br>
+                    <span>4.&nbsp;&nbsp;&nbsp;Feature Engineering Theory</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Selection</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Cleaning</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Enrichment</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Coding</span><br>
+                    <span>5.&nbsp;&nbsp;&nbsp;Feature Engineering Implement</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Cleaning</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Coding</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>特徵工程實戰練習</span><br>
+                    <span>6.&nbsp;&nbsp;&nbsp;初探Machine Learning Algorithm</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>KNN Algorithm</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Distance Definition</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Scikit-Learn</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Create KNN Model</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>KNN的挑戰</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Grid Search</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>KNN總結</span><br>
+                </div>
+                <div class="info_block">
+                    <span>7.&nbsp;&nbsp;&nbsp;Cross Validation</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Holdout CV</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Leave-one-out CV</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>K-fold CV</span><br>
+                    <span>8.&nbsp;&nbsp;&nbsp;Association Rule</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>傳說的開始 - 啤酒與尿布的故事</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>購物籃分析</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Algorithm Definition</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Apriori</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>FP-Growth</span><br>
+                    <span>9.&nbsp;&nbsp;&nbsp;Sequential Pattern</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂Sequential Pattern</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Algorithm Definition</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>AprioriAll</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>其它著名的演算法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>混合領域的Sequential Pattern</span><br>
+                    <span>10.&nbsp;&nbsp;&nbsp;Cluster</span></br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂Cluster</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂Similarity</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Hierarchical Methods</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Hierarchical Implement</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>K-Means</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>K-Means Implement</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Cluster Evaluate</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Cluster Evaluate Implement</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Best K</span><br>
+                    <span>11.&nbsp;&nbsp;&nbsp;Classification</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂Classification</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Naive Bayes Classification</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Basic Probability Theory</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Bayes Classification推導</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Bayes Classification範例</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>SKLearn Model Selection</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Training Classification Model</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Classification Evaluate</span><br>
+                    <span>12.&nbsp;&nbsp;&nbsp;Regression</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂Regression</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Least Squares Method</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Regression Implement</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Regression Evaluate</span><br>
+                    <div class="block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br></div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">適合上課對象</div>
+            <div class="info_desc">
+                1. 具備基礎電腦能力 <br>
+                2. 具備Python程式設計基礎者<br>
+                3. 對程式設計、資料科學或人工智慧有興趣者
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">其他課程描述</div>
+            <div class="info_desc">
+                <span>1. 授課講師：<a href="lecturer.html">Richard Chiang</a><br>2. 課程總時數：60小時，每堂課授課時間為3小時</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+</body>
+</html>

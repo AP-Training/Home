@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>演算系統訓練班</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head {
+            display: flex;
+            padding: 50px 0;
+            background-color: rgb(245, 241, 241);
+        }
+        a {
+            color: #2b85cf;
+            text-decoration: none;
+        }
+        .img_border {
+            width:30%;
+        }
+        .head .class_img {
+            width:70%;
+            margin: auto;
+        }
+        .head .class_img img{
+            width:100%;
+            margin: auto;
+        }
+        .head .class_desc {
+            width: 70%;
+        }
+        .bottun_container {
+            height: 12vh;
+        }
+        .butter_wrap {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+        .bottun_sub {
+            margin: auto;
+        }
+        .bottun_sub span {
+            display: inline-block;
+            text-align: center;
+            background-color: #4fa7ef;
+            margin-top: 10px;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .bottun_sub a{
+            color:white;
+            text-decoration: none;
+        }
+        .class_name {
+            display: block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            padding:5px;
+            color:rgb(70, 70, 70);
+        }
+        .class_desc {
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(70, 70, 70);
+            padding: 0 50px;
+            line-height: 35px;
+        }
+        .class_desc .class_feature {
+            padding-left: 30px;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        .info_title {
+            font-size: 22px;
+            background-color: #4fa7ef;
+            color:white;
+            border-radius: 5px 5px 0 0;
+            padding:8px;
+        }
+        .info_desc {
+            line-height: 30px;
+            border:1px solid #ddd;
+            padding:15px;
+            display: flex;
+        }
+        .info_block {
+            width: 50%;
+            margin: auto;
+        }
+        .footer {
+            width:100%;
+            padding:10px 0;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        @media(max-width: 1030px) {
+                
+        }
+        @media(max-width: 920px) {
+            
+            
+        }
+        @media(max-width: 768px) {
+            
+        }
+
+        @media(max-width: 540px) {
+            .head {
+                display:block;
+            }
+            .img_border {
+                width: 80%;
+                margin: auto;
+            }
+            .head .class_desc {
+                font-size: 14px;
+            }
+            .info {
+                width: 80%;
+                margin: auto;
+            }
+            .info_desc {
+                display: block;
+                font-size: 14px;
+            }
+            .info_block {
+                width: 90%;
+                margin: auto;
+            }
+            .block {
+                display: none;
+            }
+        }
+        @media(max-width: 380px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="head">
+        <div class="img_border">
+            <div class="class_img"><img src="images/資料視覺化.png" alt=""></div>
+            <span class="class_name">資料視覺化</span>
+            <div></div>
+        </div>
+        <div class="class_desc">課程簡介：<br>
+            <div class="class_feature">    
+                資料視覺化泛指透過圖表來呈現、說明資料。藉由觀察圖表的趨勢、異常值，從中找出原本資料中看不見的模式，了解數字背後的真正故事。<br>
+                本門課程從傳統統計圖形出發直至3D圖形繪製，紮實學會Python工程師必學的視覺化工具。
+            </div>
+        </div>
+    </div>
+    <div class="bottun_container">
+        <div class="butter_wrap">
+            <div class="class_consult bottun_sub">
+                <span><a href="index.html">關於我們</a></span>
+            </div>
+            <div class="class_consult bottun_sub">
+                <span><a href="https://www.facebook.com/100091139078281">課程諮詢</a></span>
+            </div>
+            <div class="lector_info bottun_sub">
+                <span><a href="https://forms.gle/UyBhTsBmdzvMZYPE8">課程報名</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info_title">課程大綱</div>
+            <div class="info_desc">
+                <div class="info_block">
+                    <span>1.&nbsp;&nbsp;&nbsp;資料視覺化簡介</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>什麼是資料視覺化？</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>為什麼需要資料視覺化？</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>這一堂課的資料視覺化</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>相關工具與套件</span><br>
+                    <span>2.&nbsp;&nbsp;&nbsp;Matplotlib 基礎</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定軸線</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>繪製格線</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定線條寬度</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定標題</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定刻度樣式</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多組數據設定</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>樣式設定</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>刻度設計</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>圖例</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>儲存圖片</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>綜合應用 - 三角函數(波形繪製)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>區間填滿</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定中文字</span><br>
+                    <span>3.&nbsp;&nbsp;&nbsp;長條圖與直方圖</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>一般長條圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定文字</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>水平長條圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>分組長條圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>直方圖</span><br>
+                </div>
+                <div class="info_block">
+                    <span>4.&nbsp;&nbsp;&nbsp;散步圖與圓餅圖</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>散步圖的應用情境</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Multi Data Scatter</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>圓餅圖</span><br>
+                    <span>5.&nbsp;&nbsp;&nbsp;折線圖與箱型圖</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>折線圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>箱型圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>子圖的概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定畫簿大小</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>類別選擇器</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>id選擇器</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多重選擇器</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>子選擇器</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>相鄰兄弟選擇器</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>直屬選擇器</span><br>
+                    <span>6.&nbsp;&nbsp;&nbsp;等高線圖、框線圖與表面圖</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>設定高度標籤</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>3D圖形繪製</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>點與線</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>3D等高圖</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>轉動視角</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>其他三維圖表</span><br>
+                    <div class="block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br></div>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">適合上課對象</div>
+            <div class="info_desc">
+                1. 具備基礎電腦能力 <br>
+                2. 具備Python程式設計基礎者<br>
+                3. 對程式設計、資料科學或人工智慧有興趣者
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">其他課程描述</div>
+            <div class="info_desc">
+                <span>1. 授課講師：<a href="lecturer.html">Richard Chiang</a><br>2. 課程總時數：15小時，每堂課授課時間為3小時</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+</body>
+</html>

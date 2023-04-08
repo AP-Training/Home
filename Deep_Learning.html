@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>演算系統訓練班</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head {
+            display: flex;
+            padding: 50px 0;
+            background-color: rgb(245, 241, 241);
+        }
+        a {
+            color: #2b85cf;
+            text-decoration: none;
+        }
+        .img_border {
+            width:30%;
+        }
+        .head .class_img {
+            width:70%;
+            margin: auto;
+        }
+        .head .class_img img{
+            width:100%;
+            margin: auto;
+        }
+        .head .class_desc {
+            width: 70%;
+        }
+        .bottun_container {
+            height: 12vh;
+        }
+        .butter_wrap {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+        .bottun_sub {
+            margin: auto;
+        }
+        .bottun_sub span {
+            display: inline-block;
+            text-align: center;
+            background-color: #4fa7ef;
+            margin-top: 10px;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .bottun_sub a{
+            color:white;
+            text-decoration: none;
+        }
+        .class_name {
+            display: block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            padding:5px;
+            color:rgb(70, 70, 70);
+        }
+        .class_desc {
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(70, 70, 70);
+            padding: 0 50px;
+            line-height: 35px;
+        }
+        .class_desc .class_feature {
+            padding-left: 30px;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        .info_title {
+            font-size: 22px;
+            background-color: #4fa7ef;
+            color:white;
+            border-radius: 5px 5px 0 0;
+            padding:8px;
+        }
+        .info_desc {
+            line-height: 30px;
+            border:1px solid #ddd;
+            padding:15px;
+            display: flex;
+        }
+        .info_block {
+            width: 50%;
+            margin: auto;
+        }
+        .footer {
+            width:100%;
+            padding:10px 0;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        @media(max-width: 1030px) {
+                
+        }
+        @media(max-width: 920px) {
+            
+            
+        }
+        @media(max-width: 768px) {
+            
+        }
+
+        @media(max-width: 540px) {
+            .head {
+                display:block;
+            }
+            .img_border {
+                width: 80%;
+                margin: auto;
+            }
+            .head .class_desc {
+                font-size: 14px;
+            }
+            .info {
+                width: 80%;
+                margin: auto;
+            }
+            .info_desc {
+                display: block;
+                font-size: 14px;
+            }
+            .info_block {
+                width: 90%;
+                margin: auto;
+            }
+        }
+        @media(max-width: 380px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="head">
+        <div class="img_border">
+            <div class="class_img"><img src="images/DeepLearn.jpg" alt=""></div>
+            <span class="class_name">深度學習</span>
+            <div></div>
+        </div>
+        <div class="class_desc">課程簡介：<br>
+            <div class="class_feature">    
+                近期人工智慧的各項應用與發展，其背後的技術就是深度學習。<br>
+                深度學習為機器學習的進階課程，有別於傳統的方式。透過設計類神經網路，讓大量的資料自行學習並找出當前最佳解。<br>
+                我們的這一門課為<a href="Machine_Learning.html">機器學習</a>的進階課程，透過學習深度學習框架、理論與實務並重的帶領學員逐步訓練出屬於自己的模型。
+            </div>
+        </div>
+    </div>
+    <div class="bottun_container">
+        <div class="butter_wrap">
+            <div class="class_consult bottun_sub">
+                <span><a href="index.html">關於我們</a></span>
+            </div>
+            <div class="class_consult bottun_sub">
+                <span><a href="https://www.facebook.com/100091139078281">課程諮詢</a></span>
+            </div>
+            <div class="lector_info bottun_sub">
+                <span><a href="https://forms.gle/UyBhTsBmdzvMZYPE8">課程報名</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info_title">課程大綱</div>
+            <div class="info_desc">
+                <div class="info_block">
+                    <span>1.&nbsp;&nbsp;&nbsp;深度學習簡介</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>TensorFlow與PyTorch</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>環境建置</span><br>
+                    <span>2.&nbsp;&nbsp;&nbsp;深度學習基礎</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>淺談所需基礎數學知識</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>再談迴歸分析</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>梯度遞減演算法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>第一個類神經網路</span><br>
+                    <span>3.&nbsp;&nbsp;&nbsp;PyTorch基礎</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>向量、矩陣與張量</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>自動微分</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>PyTorch改寫第一個神經網路</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataSet與DataLoader</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>TensorBoard</span><br>
+                    <span>4.&nbsp;&nbsp;&nbsp;類神經網路</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>PyTorch的模型</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Layer</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>激勵函數(Activation Function)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>損失函數(Loss Function)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>優化器(Optimizer)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>超參(Hyper Parameter)</span><br>
+                    <span>5.&nbsp;&nbsp;&nbsp;影像識別基礎 - 卷積神經網路(CNN)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>卷積神經網路基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Convolution</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Pooling Layer</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>CNN實戰演練</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Data Augmentation</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>淺談OpenCV</span><br>
+                    <span>6.&nbsp;&nbsp;&nbsp;PreTrain</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>PreTrain基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Transfer Learning</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Batch</span><br>
+                </div>
+                <div class="info_block">
+                    <span>7.&nbsp;&nbsp;&nbsp;影像識別進階 - 物件偵測(Object Detection)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>影像識別應用</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>RCNN物件偵測</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>YOLO基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>YOLO環境建置</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>YOLO Training Model</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>SSD</span><br>
+                    <span>8.&nbsp;&nbsp;&nbsp;其他影像識別應用技巧</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>風格轉換</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>人臉偵測</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>文字辨識</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>車牌辨識</span><br>
+                    <span>9.&nbsp;&nbsp;&nbsp;生成對抗網路(GAN)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>生成對抗網路簡介</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DCGAN</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Deepfake</span><br>
+                    <span>10.&nbsp;&nbsp;&nbsp;自然語言處理基礎(NLP)</span></br>                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>詞庫</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>TF-IDF</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>中文斷字斷詞</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>RNN</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>LSTM</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>BERT</span><br>
+                    <span>11.&nbsp;&nbsp;&nbsp;自然語言進階應用 - 語音辨識(Speech Recognition)</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>語音辨識基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>PyTorch PreProcess</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>語音辨識實戰練習</span><br>
+                    <span>12.&nbsp;&nbsp;&nbsp;聊天機器人</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>聊天機器人基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>聊天機器人相關套件</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>聊天機器人實戰練習</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span></span><br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">適合上課對象</div>
+            <div class="info_desc">
+                1. 具備基礎電腦能力 <br>
+                2. 具備Python程式設計基礎者<br>
+                3. 對程式設計、資料科學或人工智慧有興趣者
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">其他課程描述</div>
+            <div class="info_desc">
+                <span>1. 授課講師：<a href="lecturer.html">Richard Chiang</a><br>2. 課程總時數：54小時，每堂課授課時間為3小時</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+</body>
+</html>

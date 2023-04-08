@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>演算系統訓練班</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .head {
+            display: flex;
+            padding: 50px 0;
+            background-color: rgb(245, 241, 241);
+        }
+        a {
+            color: #2b85cf;
+            text-decoration: none;
+        }
+        .img_border {
+            width:30%;
+        }
+        .head .class_img {
+            width:70%;
+            margin: auto;
+        }
+        .head .class_img img{
+            width:100%;
+            margin: auto;
+        }
+        .head .class_desc {
+            width: 70%;
+        }
+        .bottun_container {
+            height: 12vh;
+        }
+        .butter_wrap {
+            display: flex;
+            margin: auto;
+            width: 80%;
+        }
+        .bottun_sub {
+            margin: auto;
+        }
+        .bottun_sub span {
+            display: inline-block;
+            text-align: center;
+            background-color: #4fa7ef;
+            margin-top: 10px;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .bottun_sub a{
+            color:white;
+            text-decoration: none;
+        }
+        .class_name {
+            display: block;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            margin: auto;
+            font-size: 22px;
+            padding:5px;
+            color:rgb(70, 70, 70);
+        }
+        .class_desc {
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(70, 70, 70);
+            padding: 0 50px;
+            line-height: 35px;
+        }
+        .class_desc .class_feature {
+            padding-left: 30px;
+        }
+        
+        .container {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        .info_title {
+            font-size: 22px;
+            background-color: #4fa7ef;
+            color:white;
+            border-radius: 5px 5px 0 0;
+            padding:8px;
+        }
+        .info_desc {
+            line-height: 30px;
+            border:1px solid #ddd;
+            padding:15px;
+            display: flex;
+        }
+        .info_block {
+            width: 50%;
+            margin: auto;
+        }
+        .footer {
+            width:100%;
+            padding:10px 0;
+            text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:rgb(245, 245, 245);
+            margin-top: 20px;
+        }
+        @media(max-width: 1030px) {
+                
+        }
+        @media(max-width: 920px) {
+            
+            
+        }
+        @media(max-width: 768px) {
+            
+        }
+
+        @media(max-width: 540px) {
+            .head {
+                display:block;
+            }
+            .img_border {
+                width: 80%;
+                margin: auto;
+            }
+            .head .class_desc {
+                font-size: 14px;
+            }
+            .info {
+                width: 80%;
+                margin: auto;
+            }
+            .info_desc {
+                display: block;
+                font-size: 14px;
+            }
+            .info_block {
+                width: 90%;
+                margin: auto;
+            }
+        }
+        @media(max-width: 380px) {
+        }
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+    <div class="head">
+        <div class="img_border">
+            <div class="class_img"><img src="images/Python基礎.jpg" alt=""></div>
+            <span class="class_name">Python零基礎課程</span>
+            <div></div>
+        </div>
+        <div class="class_desc">課程簡介：<br>
+            <div class="class_feature">    
+                Python是目前廣泛被使用的程式語言，其主要應用於網頁程式開發、資料科學與人工智慧...等等。<br>
+                Python於1991年由<a href="https://zh.wikipedia.org/zh-tw/%E5%90%89%E5%A4%9A%C2%B7%E8%8C%83%E7%BD%97%E8%8B%8F%E5%A7%86">吉多·范羅蘇姆</a>建立釋出．目前已有二十年以上的發展歷史，其功能成熟、穩定，是非常適合初學者第一個入門的程式語言。<br>
+                Python的特色如下：<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 語法簡單容易上手<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 免費<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 跨平台導向<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. 開放式資源(豐富的套件)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. 應用多元<br>
+            </div>
+        </div>
+    </div>
+    <div class="bottun_container">
+        <div class="butter_wrap">
+            <div class="class_consult bottun_sub">
+                <span><a href="index.html">關於我們</a></span>
+            </div>
+            <div class="class_consult bottun_sub">
+                <span><a href="https://www.facebook.com/100091139078281">課程諮詢</a></span>
+            </div>
+            <div class="lector_info bottun_sub">
+                <span><a href="https://forms.gle/UyBhTsBmdzvMZYPE8">課程報名</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <div class="info_title">課程大綱</div>
+            <div class="info_desc">
+                <div class="info_block">
+                    <span>1.&nbsp;&nbsp;&nbsp;開發環境建置</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Anaconda</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Google Colab</span><br>
+                    <span>2.&nbsp;&nbsp;&nbsp;基本程式概念</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂程式撰寫</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎四則運算</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>內建函數、變數與註解</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>運算元與運算子</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多重指派</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基本資料型態</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>再談輸入輸出函數</span><br>
+                    <span>3.&nbsp;&nbsp;&nbsp;流程控制</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>關係運算子</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>邏輯運算子</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>if敘述</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>if...else敘述</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>if...elif...else敘述</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>巢狀if敘述</span><br>
+                    <span>4.&nbsp;&nbsp;&nbsp;資料結構</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>list資料結構基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>切片</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>list搭配的常用函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>list的相加與乘法</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>新增、刪除、修改list元素</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>拷貝與淺拷貝</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>排序</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>list的進階應用</span><br>
+                    <span>5.&nbsp;&nbsp;&nbsp;迴圈</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎for迴圈基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>for迴圈常搭配的內建函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>正面表述與背面表述</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>巢狀for迴圈</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>break與continue</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎while迴圈</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>巢狀while迴圈</span><br>
+                    <span>6.&nbsp;&nbsp;&nbsp;再談資料結構</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎元組tuple</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>enumerate</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>zip</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎字典dictionary</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>字典的讀取</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>新增、修改、刪除字典元素</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>字典的複製</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>遍歷字典</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>其他複合式資料結構</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基礎集合set</span><br>
+                </div>
+                <div class="info_block">
+                    <span>7.&nbsp;&nbsp;&nbsp;函數</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>基本函數概念</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>帶參數的函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>有回傳值的函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>帶任意數量參數的函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>匿名函數lambda</span><br>
+                    <span>8.&nbsp;&nbsp;&nbsp;類別</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>何謂物件導向</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>定義類別</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>建構子</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>封裝</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>繼承</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多型</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多層繼承</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>多重繼承</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>繼承常用函數</span><br>
+                    <span>9.&nbsp;&nbsp;&nbsp;變數的生命週期</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>區域變數 VS 全域變數</span><br>
+                    <span>10.&nbsp;&nbsp;&nbsp;模組開發</span></br>                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>import引用函式庫</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>自訂模組</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>自訂套件</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>再談random模組</span><br>
+                    <span>11.&nbsp;&nbsp;&nbsp;檔案處理</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>絕對路徑與相對路徑</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>os模組 - 檢查檔案</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>os模組 - 檔案與目錄操作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>檔案讀取(txt)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>with關鍵字</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>with關鍵字的極限</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>檔案寫入(txt)</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>再談open函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Word檔案處理</span><br>
+                    <span>12.&nbsp;&nbsp;&nbsp;淺談Numpy</span></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>為什麼需要Numpy?</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy陣列操作</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy內建函數建構ndarray</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Numpy基礎總練習</span><br>
+                    <span>13.&nbsp;&nbsp;&nbsp;淺談Pandas</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>為什麼需要Pandas?</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Series物件基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataFrame物件基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>Index物件基礎</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataFrame常用函數</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<span>DataFrame 檔案讀取</span><br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">適合上課對象</div>
+            <div class="info_desc">
+                1. 具備基礎電腦能力 <br>
+                2. 對程式設計、資料科學或人工智慧有興趣者<br>
+                3. 程式設計零基礎學員
+            </div>
+        </div>
+        <br>
+        <div class="info">
+            <div class="info_title">其他課程描述</div>
+            <div class="info_desc">
+                <span>1. 授課講師：<a href="lecturer.html">Richard Chiang</a><br>2. 課程總時數：63小時，每堂課授課時間為3小時</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">© 2023 - Copy Right 演算程式訓練班 </div>
+</body>
+</html>
